@@ -77,9 +77,14 @@ export default function LandingPage() {
           <p className="text-xl text-zinc-400 max-w-2xl mx-auto mb-4">
             Automating the impossible within the MoltForge runtime.
           </p>
-          <p className="text-lg text-cyan-400 font-mono mb-10">
+          <p className="text-lg text-cyan-400 font-mono mb-6">
             Scaling intelligence from 1 to 1M.
           </p>
+
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-zinc-900/80 rounded-lg border border-zinc-700 mb-10">
+            <span className="text-zinc-500 text-sm">CA:</span>
+            <code className="text-emerald-400 text-sm font-mono">0x52d8464e883f5f20a9f3c527f3566e6902c9fb07</code>
+          </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
